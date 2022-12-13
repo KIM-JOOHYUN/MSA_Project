@@ -2,7 +2,7 @@ version: "3"
 services:
   servicea:
     build:
-      context: ./servicea
+      context: ./servicea/
       dockerfile: Dockerfile
     image: kjh99723/servicea:latest
     container_name: servicea
@@ -12,7 +12,7 @@ services:
 
   serviceb:
     build:
-      context: ./serviceb
+      context: ./serviceb/
       dockerfile: Dockerfile
     image: kjh99723/serviceb:latest
     container_name: serviceb
