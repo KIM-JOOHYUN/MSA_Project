@@ -19,6 +19,6 @@ public class Acontroller {
 
     @RequestMapping("/")
     public String helloa(){
-        return "helloa";
+        return "hello A";
     }
 }

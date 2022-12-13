@@ -18,6 +18,6 @@ public class Bcontroller {
 
     @RequestMapping("/")
     public String hellob(){
-        return "hellob";
+        return "hello B";
     }
 }
